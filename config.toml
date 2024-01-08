@@ -1,0 +1,112 @@
+baseURL = "https://ususoc.com"
+title = "USU S.O.C."
+languageCode = "en"
+DefaultContentLanguage = "en" # Change this to change the site's language
+theme = "hugo.386"
+preserveTaxonomyNames = true
+
+[params]
+    # The name to display as main title in the home page
+    mainpagetitle = "USU Student Organization for Cybersecurity"
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "Welcome to the club!" 
+
+    # The description of your website. It will be displayed in the home page
+    mainpagedesc = "The USU Student Organization for Cybersecurity (USUSOC) provides students with skill building, networking, and career development opportunities to prepare for a career in cybersecurity."
+
+    # The name to display in the copyright section in the footer
+    copyrightname = ""
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    copyrighturl = "https://ususoc.com"
+
+    # Show the "built on Hugo" disclaimer
+    showhugo = true
+
+    # Urls for social networks
+    linkedin = "https://www.linkedin.com/company/ususoc/"
+    github = "https://github.com/USUSOC/"
+    discord = "https://discord.gg/rtMTreNsKw"
+    #gitlab = "https://gitlab.com"
+    instagram = "https://www.instagram.com/utahstatesoc/"
+    myusu = "https://my.usu.edu/groups/student-organization-for-cybersecurity/page"
+
+    # Enables or disables the loading animations. false activates them. Default is false.
+    loadfastload = false
+
+    # Sets the speed for the page loading effect. Default is 1.0.
+    loadspeedfactor = 2.0
+
+    # Enables or disables the second flyby cursor. Default is false.
+    loadonepass = false
+
+[params.copyright]
+    name = ""
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    url = ""
+
+    # Text to go before copyright information
+    prefix = ""
+
+    # Text to go between copyright and hugo disclaimer (if enabled)
+    suffix = ""
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "leadership" # An unique identifier for the button
+    name = "Leadership"       # A display name for the button
+    url = "/leadership/"      # The path to the content. It can lead to a single page (like here)
+    weight = 20          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "contact" # An unique identifier for the button
+    name = "Contact"       # A display name for the button
+    url = "/contact/"      # The path to the content. It can lead to a single page (like here)
+    weight = 30          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "All posts"
+    url = "/post/"       # The path can lead to a content folder too.
+    weight = 50
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
